@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "Dicoding",
+    "certificate_list": [
+      {
+        "id": 1,
+        "image": "/certificates/dicoding/JMZVE6O33PN09.png",
+        "title": {
+          "en": "Prompt Engineering for Software Developer",
+          "id": "Prompt Engineering untuk Software Developer"
+        },
+        "link": "https://www.dicoding.com/certificates/JMZVE6O33PN09",
+        "description": {
+          "en": "A class completion certificate for software developers who want to learn how to create good prompts for Generative AI.",
+          "id": "Sertifikat penyelesaian kelas bagi para software developer yang ingin belajar cara membuat prompt yang baik untuk Generative AI."
+        }
+      },
+
+      {
+        "id": 4,
+        "image": "/certificates/dicoding/53XED8RWKPRN.png",
+        "title": {
+          "en": "Learn Node.js Back-end Fundamentals",
+          "id": "Belajar Fundamental Back-end dengan Node.js"
+        },
+        "link": "https://www.dicoding.com/certificates/53XED8RWKPRN",
+        "description": {
+          "en": "A class completion certificate for individuals who wish to take the leap to become a Web Developer/Back-end developer using Node.js technology using industry competency standards validated by AWS.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang ingin melompat menjadi Web Developer/Back-end developer menggunakan teknologi Node.js dengan standar kompetensi industri yang divalidasi oleh AWS."
+        }
+      },
+
+      {
+        "id": 2,
+        "image": "/certificates/dicoding/GRX537WLYZ0M.png",
+        "title": {
+          "en": "Practical AI for Productivity",
+          "id": "AI Praktis untuk Produktivitas"
+        },
+        "link": "https://www.dicoding.com/certificates/GRX537WLYZ0M",
+        "description": {
+          "en": "A class completion certificate for individuals looking to leverage AI as a tool to increase productivity.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang ingin memanfaatkan AI sebagai alat untuk meningkatkan produktivitas."
+        }
+      },
+
+      {
+        "id": 3,
+        "image": "/certificates/dicoding/QLZ93LOK7Z5D.png",
+        "title": {
+          "en": "Learn Generative AI Usage",
+          "id": "Belajar Penggunaan Generative AI"
+        },
+        "link": "https://www.dicoding.com/certificates/QLZ93LOK7Z5D",
+        "description": {
+          "en": "A class completion certificate for individuals who wish to create good prompts for Generative AI.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang ingin membuat prompt yang baik untuk Generative AI."
+        }
+      },
+
+      {
+        "id": 5,
+        "image": "/certificates/dicoding/JMZVEWG2NPN9.png",
+        "title": {
+          "en": "Getting Started with Python Programming",
+          "id": "Memulai Pemrograman Dengan Python"
+        },
+        "link": "https://www.dicoding.com/certificates/JMZVEWG2NPN9",
+        "description": {
+          "en": "A class completion certificate for individuals who want to start their career in programming by referring to industry standards.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang ingin memulai karirnya di bidang pemrograman dengan mengacu pada standar industri."
+        }
+      },
+
+      {
+        "id": 7,
+        "image": "/certificates/dicoding/2VX3KD92JXYQ.png",
+        "title": {
+          "en": "Learn Cloud and Gen AI Basics on AWS",
+          "id": "Belajar Dasar Cloud dan Gen AI di AWS"
+        },
+        "link": "https://www.dicoding.com/certificates/2VX3KD92JXYQ",
+        "description": {
+          "en": "A class completion certificate for beginners who want to start their career in cloud computing by referring to AWS's international competency standards.",
+          "id": "Sertifikat penyelesaian kelas bagi pemula yang ingin memulai karirnya di bidang komputasi awan dengan mengacu pada standar kompetensi internasional AWS."
+        }
+      },
+
+      {
+        "id": 6,
+        "image": "/certificates/dicoding/98XWE7R6LXM3.png",
+        "title": {
+          "en": "Learn AI Basics",
+          "id": "Belajar Dasar AI"
+        },
+        "link": "https://www.dicoding.com/certificates/98XWE7R6LXM3",
+        "description": {
+          "en": "A class completion certificate for beginners looking to start a career in AI.",
+          "id": "Sertifikat penyelesaian kelas bagi pemula yang ingin memulai karir di bidang AI."
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "WorldSkills",
+    "certificate_list": [
+      {
+        "id": 1,
+        "image": "/certificates/etc/2S1317LP0002X2024.png",
+        "title": {
+          "en": "WorldSkills Indonesia - ITSSB",
+          "id": "WorldSkills Indonesia - ITSSB"
+        },
+        "link": "https://drive.google.com/file/d/1lrrhPHrqfQhJg5yLpKqrdOKRoDGexOae/view?usp=drivesdk",
+        "description": {
+          "en": "Certificate of completion of the 2024 WorldSkills Indonesia ITSSB competition which requires participants to create business solution applications.",
+          "id": "Sertifikat penyelesaian kompetisi WorldSkills Indonesia ITSSB 2024 yang mengharuskan peserta membuat aplikasi solusi bisnis."
+        }
+      }
+    ]
+  }
+]
