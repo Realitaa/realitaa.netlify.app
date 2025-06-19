@@ -8,7 +8,7 @@ const { t } = useI18n({ useScope: 'global' })
 </script>
 
 <template>
-  <div class="w-full pb-20 px-3 sm:px-6 md:px-10 lg:px-30">
+  <div class="w-full pb-20 px-5 sm:px-6 md:px-10 lg:px-30">
     <h1 class="text-slate-300 text-4xl text-center my-5">{{ t('about.title') }}</h1>
     <p class="text-slate-300 mt-2">
       <TextStream speed="25" :text="`${t('about.content')}`" />

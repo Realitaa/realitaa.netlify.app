@@ -7,6 +7,7 @@
   --color-primary: #DC81AD;
   --color-tertiary: #23153C;
   --breakpoint-xs: 576px;
+  --breakpoint-xxs: 495px;
 }
 @theme {
   --animate-zero: spinColor 5s linear infinite;

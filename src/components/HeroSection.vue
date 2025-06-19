@@ -36,7 +36,7 @@ onUnmounted(() => {
 <template>
   <div ref="vantaRef" class="w-full h-screen">
     <div class="mx-auto z-10 relative flex flex-col justify-center h-full">
-      <div class="flex-2 ms-4 md:ms-7 lg:ms-10 flex flex-col justify-center h-full">
+      <div class="flex-2 ms-5 sm:ms-6 md:ms-10 lg:ms-30 flex flex-col justify-center h-full">
         <h1 class="text-3xl lg:text-6xl md:text-4xl font-semibold text-slate-200">
           <TextStream text="Reza Mulia Putra" />
         </h1>
@@ -50,7 +50,9 @@ onUnmounted(() => {
           {{ t('hero.CTA') }}
         </a>
       </div>
-      <div class="flex flex-wrap gap-4 relative justify-center z-10 m-2 md:m-7 lg:m-10">
+      <div
+        class="flex flex-wrap gap-4 relative justify-evenly xxs:justify-center z-10 m-5 md:m-7 lg:m-10"
+      >
         <IconSkill icon="html-5" effect />
         <IconSkill icon="css-3" effect />
         <IconSkill icon="javascript" effect />
