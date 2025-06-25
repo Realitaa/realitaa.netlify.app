@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
-import * as THREE from 'three'
+// import * as THREE from 'three'
 import GLOBE from 'vanta/dist/vanta.globe.min'
 import IconSkill from './IconSkill.vue'
 import TextStream from './TextStream.vue'
@@ -8,11 +8,17 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n({ useScope: 'global' })
 
-const tagline = computed(() => [t('hero.tagline.role1'), t('hero.tagline.role2')])
+const tagline = computed(() => [
+  t('hero.tagline.role1'),
+  t('hero.tagline.role2'),
+  t('hero.tagline.role3'),
+])
 const vantaRef = ref(null)
 let vantaEffect = null
 
-onMounted(() => {
+onMounted(async () => {
+  // Impor Three.js dari CDN
+  const THREE = await import('https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.module.js')
   vantaEffect = GLOBE({
     el: vantaRef.value,
     THREE,

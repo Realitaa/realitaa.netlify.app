@@ -1,13 +1,15 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-import LoadingBar from './components/LoadingBar.vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
 
 const { t, locale } = useI18n({ useScope: 'global' })
 const changeLocale = (newLocale) => {
   locale.value = newLocale
+  localStorage.setItem('locale', newLocale)
 }
+
 let toggleNavbar = ref(false)
 let toggleDropdown = ref(false)
 const navbarRef = ref(null)
@@ -18,8 +20,17 @@ const handleOutsideClick = (event) => {
   }
 }
 
+// Tentukan apakah FAB harus ditampilkan berdasarkan nama rute
+const route = useRoute()
+const showFAB = computed(() => route.name !== 'home')
+
 onMounted(() => {
   document.addEventListener('click', handleOutsideClick)
+
+  const savedLocale = localStorage.getItem('locale')
+  if (savedLocale) {
+    changeLocale(savedLocale)
+  }
 })
 
 onUnmounted(() => {
@@ -28,10 +39,6 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <LoadingBar />
-
-  {/* Navbar */}
-
   <nav ref="navbarRef" class="bg-slate-900 fixed w-full z-20 top-0 start-0 border-gray-600">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" class="flex items-center space-x-3">
@@ -161,7 +168,15 @@ onUnmounted(() => {
     </div>
   </nav>
 
-  <RouterView />
+  <RouterView class="mt-30" />
+
+  <a
+    v-if="showFAB"
+    href="/#contact"
+    class="fixed bottom-5 md:bottom-8 right-5 md:right-8 p-2 rounded-full bg-primary"
+  >
+    <Icon icon="foundation:telephone" class="text-5xl animate-phone-ringing" />
+  </a>
 </template>
 
 <style scoped></style>

@@ -107,10 +107,11 @@ onUnmounted(() => {
             @click="activeCertificate === certificate ? null : scrollToCertificate(index)"
           >
             <img
-              :src="certificate.image"
+              :src="certificate.image[locale] || certificate.image"
               :alt="certificate.title[locale]"
               class="w-full md:w-130 h-60.5 md:h-auto rounded-lg shadow-lg opacity-50"
               :class="{ 'opacity-100': activeCertificate.id === certificate.id }"
+              loading="lazy"
             />
             <div
               v-if="activeCertificate.id === certificate.id && !isMobile"
@@ -123,6 +124,9 @@ onUnmounted(() => {
       </div>
     </div>
     <h2 class="text-xl font-semibold mt-6 text-center">
+      <!-- Displaying the sertificate index -->
+      {{ certificates.length > 1 ? `(${activeCertificate.id}/${certificates.length})` : '' }}
+      <!-- Displaying the sertificate title -->
       {{ activeCertificate ? activeCertificate.title[locale] : 'Pilih sertifikat' }}
     </h2>
     <p class="text-sm text-gray-400 mt-2 text-center">

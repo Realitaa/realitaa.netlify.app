@@ -10,10 +10,10 @@ import NotFound from './NotFound.vue'
 export const isLoading = ref(false)
 
 const routes = [
-  { path: '/', component: HomeView },
-  { path: '/project', component: ProjectView },
-  { path: '/achievement', component: AchievementView },
-  // { path: '/hobby', component: HobbyView },
+  { path: '/', name: 'home', component: HomeView },
+  { path: '/project', name: 'project', component: ProjectView },
+  { path: '/achievement', name: 'achievement', component: AchievementView },
+  // { path: '/hobby', name: "hobby" component: HobbyView },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ]
 

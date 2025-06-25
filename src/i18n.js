@@ -11,7 +11,8 @@ const messages = {
     hero: {
       tagline: {
         role1: 'Fullstack Web Developer',
-        role2: 'AI Enthusiast',
+        role2: 'Prompt Engineer',
+        role3: 'AI Enthusiast',
       },
       CTA: 'Get in Touch',
     },
@@ -41,7 +42,8 @@ const messages = {
     hero: {
       tagline: {
         role1: 'Pengembang Web Fullstack',
-        role2: 'Penggemar AI',
+        role2: 'Penulis Perintah AI',
+        role3: 'Penggemar AI',
       },
       CTA: 'Hubungi Saya',
     },

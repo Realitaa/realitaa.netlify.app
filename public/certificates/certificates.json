@@ -104,6 +104,79 @@
   },
   {
     "id": 2,
+    "name": "RuangAI by Codepolitan",
+    "certificate_list": [
+      {
+        "id": 1,
+        "image": {
+          "en": "/certificates/ruangai/en.jpg",
+          "id": "/certificates/ruangai/id.jpg"
+        },
+        "title": {
+          "en": "Basic and Usage of Generative AI",
+          "id": "Dasar dan Penggunaan Generatif AI"
+        },
+        "link": "https://app.ruangai.id/certificate/8052482122",
+        "description": {
+          "en": "Graduated as \"The Brave Grad\" in the Artificial Intelligence skills scholarship, studying the fundamentals of Generative AI and its applications in everyday life.",
+          "id": "Lulus sebagai \"The Brave Grad\" pada beasiswa keahlian Artificial Intelligence yang mempelajari dasar-dasar Generative AI dan penerapannya dalam kehidupan sehari-hari."
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "IBM SkillsBuild",
+    "certificate_list": [
+      {
+        "id": 1,
+        "image": "/certificates/ibm/MDL-504.png",
+        "title": {
+          "en": "Use Generative AI for Software Development",
+          "id": "Menggunakan Generative AI untuk Pengembangan Perangkat Lunak"
+        },
+        "link": "https://skills.yourlearning.ibm.com/certificate/share/04f4d10b22ewogICJsZWFybmVyQ05VTSIgOiAiNDkzNDkxOVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIk1ETC01MDQiCn0b1e571c4d4-10",
+        "description": {
+          "en": "A class completion certificate for individuals who have completed the course. This course teaches how to use AI to write code, translate code into different languages, and solve common problems. It includes simulations using IBM Watsonx.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang telah menyelesaikan kelas. Kelas ini mengajarkan cara menggunakan AI untuk menulis kode, memindahkan kode ke bahasa yang berbeda dan menyelesaikan masalah umum. Telah melakukan simulasi penggunaan IBM Watsonx."
+        }
+      },
+      {
+        "id": 2,
+        "image": "/certificates/ibm/MDL-567.png",
+        "title": {
+          "en": "IBM Granite Models for Software Development",
+          "id": "Model IBM Granite untuk Pengembangan Perangkat Lunak"
+        },
+        "link": "https://skills.yourlearning.ibm.com/certificate/share/dc211c43a9ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI0OTM0OTE5UkVHIiwKICAib2JqZWN0SWQiIDogIk1ETC01NjciCn0e11edfd9a7-10",
+        "description": {
+          "en": "A class completion certificate for individuals who have completed the course. This course explains the IBM Granite models, how to use them for troubleshooting, identifying issues, and fixing them.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang telah menyelesaikan kelas. Kelas ini menjelaskan model-model IBM Granite, menjelaskan cara menggunakannya untuk troubleshoot, mengidentifikasi masalah dan memperbaikinya. "
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "NextSkill Indonesia",
+    "certificate_list": [
+      {
+        "id": 1,
+        "image": "/certificates/nextskill/292c0af5e3b49e20.png",
+        "title": {
+          "en": "Backend Developer (Express, Mysql, Supabase)",
+          "id": "Pengembang Backend (Express, Mysql, Supabase)"
+        },
+        "link": "https://nextskill.id/tutor-certificate/?cert_hash=292c0af5e3b49e20",
+        "description": {
+          "en": "A class completion certificate that teaches simple backend development using Express, Mysql, and Supabase. This class also teaches the use of Postman for API testing and Swagger OpenAPI for API documentation.",
+          "id": "Sertifikat penyelesaian kelas yang mengajarkan pembangunan backend sederhana menggunakan Express, Mysql dan Supabase. Kelas ini juga mengajarkan penggunaan Postman untuk melakukan testing API, dan Swagger OpenAPI untuk dokumentasi API."
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
     "name": "WorldSkills",
     "certificate_list": [
       {
