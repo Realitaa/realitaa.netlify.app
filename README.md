@@ -1,35 +1,67 @@
-# .
+# Reza Mulia Putra's Personal Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the source code for [Reza Mulia Putra](https://realitaa.github.io)'s personal website, built with [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Vanta.js](https://www.vantajs.com/). The site showcases projects, achievements, and contact information, and supports both English and Indonesian languages.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Responsive Design**: Mobile-first and fully responsive layout.
+- **Internationalization**: Supports English and Indonesian via [vue-i18n](https://vue-i18n.intlify.dev/).
+- **Animated Hero Section**: Interactive globe animation using Vanta.js.
+- **Project & Achievement Gallery**: Dynamic loading of projects and certificates from JSON files.
+- **Contact Section**: Quick links to social media and messaging platforms.
+- **404 Page**: Custom not found page with animated message.
 
-## Customize configuration
+## Project Structure
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [`.github/workflows/build.yml`](.github/workflows/build.yml) - CI/CD for Github Pages using Github Action Node JS.
+- [`src/`](src/) — Vue components and views
+- [`public/`](public/) — Static assets, certificates, and project data
+- [`src/assets/main.css`](src/assets/main.css) — Tailwind CSS and custom styles entry point
+- [`src/i18n.js`](src/i18n.js) — Internationalization setup and library
+- [`src/router.js`](src/router.js) — Vue Router configuration
 
-## Project Setup
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v22 or newer recommended. Personally using v23.4.0)
+- [npm](https://www.npmjs.com/)
+
+### Installation
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+Open http://localhost:5173 to view the site locally.
+
+### Build for Production
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+The production-ready files will be in the `dist/` directory.
+
+### Lint & Format
 
 ```sh
 npm run lint
+npm run format
 ```
+
+## Deployment
+
+This project uses GitHub Actions ([.github/workflows/build.yml](.github/workflows/build.yml)) to build and deploy the site automatically on pushes to the dev branch.
+
+## License
+
+This repository is for personal portfolio use. For inquiries, please contact [Reza Mulia Putra](https://linkedin.com/in/Realitaa).
+
+> Made with ❤️ using Vue 3, Vite, and Tailwind CSS.
