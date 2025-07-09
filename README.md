@@ -1,6 +1,6 @@
 # Reza Mulia Putra's Personal Website
 
-This is the source code for [Reza Mulia Putra](https://realitaa.github.io)'s personal website, built with [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Vanta.js](https://www.vantajs.com/). The site showcases projects, achievements, and contact information, and supports both English and Indonesian languages.
+This is the source code for [Reza Mulia Putra](https://realitaa.github.io)'s personal website, built with [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Vanta.js](https://www.vantajs.com/). The site showcases projects, achievements, and contact information, and supports both English and Indonesian languages. The branch used by Github Pages is `v1`.
 
 ## Features
 
@@ -58,7 +58,7 @@ npm run format
 
 ## Deployment
 
-This project uses GitHub Actions ([.github/workflows/build.yml](.github/workflows/build.yml)) to build and deploy the site automatically on pushes to the dev branch.
+This project uses GitHub Actions ([.github/workflows/build.yml](.github/workflows/build.yml)) to build and deploy the site automatically on pushes to the dev branch using [peaceiris/actions-gh-pages@v3](https://github.com/peaceiris/actions-gh-pages).
 
 ## License
 
