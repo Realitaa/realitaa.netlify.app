@@ -176,6 +176,17 @@ onUnmounted(() => {
   >
     <Icon icon="foundation:telephone" class="text-4xl md:text-5xl animate-phone-ringing" />
   </a>
+
+  <footer class="text-center text-white py-4">
+    <div class="container mx-auto">
+      <p>&copy; 2025 Reza Mulia Putra. All rights reserved.</p>
+      <p>
+        Made with
+        <Icon icon="twemoji:heart-suit" class="inline text-red-500" />
+        using Vue.js and Tailwind CSS.
+      </p>
+    </div>
+  </footer>
 </template>
 
 <style scoped></style>
