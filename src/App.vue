@@ -174,7 +174,7 @@ onUnmounted(() => {
     href="/#contact"
     class="fixed bottom-5 md:bottom-8 right-5 md:right-8 p-2 rounded-full bg-primary"
   >
-    <Icon icon="foundation:telephone" class="text-5xl animate-phone-ringing" />
+    <Icon icon="foundation:telephone" class="text-4xl md:text-5xl animate-phone-ringing" />
   </a>
 </template>
 
