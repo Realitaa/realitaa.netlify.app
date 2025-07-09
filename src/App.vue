@@ -45,7 +45,6 @@ onUnmounted(() => {
         <span class="self-center text-2xl font-semibold whitespace-nowrap">Realitaa</span>
       </a>
       <div class="flex space-x-3 md:space-x-0">
-        <!-- <Icon icon="emojione:flag-for-indonesia" /> -->
         <button
           type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary text-gray-400"
@@ -100,14 +99,14 @@ onUnmounted(() => {
               >{{ t('nav.achievements') }}</RouterLink
             >
           </li>
-          <li>
+          <!-- <li>
             <RouterLink
               to="/hobby"
               class="block py-2 px-3 text-white rounded-sm md:bg-transparent hover:text-primary md:p-0"
               @click="toggleNavbar = !toggleNavbar"
               >{{ t('nav.hobby') }}</RouterLink
             >
-          </li>
+          </li> -->
           <li>
             <button
               id="language"

@@ -129,7 +129,7 @@
     "name": "IBM SkillsBuild",
     "certificate_list": [
       {
-        "id": 1,
+        "id": 3,
         "image": "/certificates/ibm/MDL-504.png",
         "title": {
           "en": "Use Generative AI for Software Development",
@@ -153,6 +153,19 @@
           "en": "A class completion certificate for individuals who have completed the course. This course explains the IBM Granite models, how to use them for troubleshooting, identifying issues, and fixing them.",
           "id": "Sertifikat penyelesaian kelas bagi individu yang telah menyelesaikan kelas. Kelas ini menjelaskan model-model IBM Granite, menjelaskan cara menggunakannya untuk troubleshoot, mengidentifikasi masalah dan memperbaikinya. "
         }
+      },
+      {
+        "id": 1,
+        "image": "/certificates/ibm/MDL-566.png",
+        "title": {
+          "en": "Code Generation and Optimization Using IBM Granite",
+          "id": "Generasi Kode dan Optimasi Menggunakan IBM Granite"
+        },
+        "link": "https://skills.yourlearning.ibm.com/certificate/share/9f5dbbd302ewogICJvYmplY3RJZCIgOiAiTURMLTU2NiIsCiAgImxlYXJuZXJDTlVNIiA6ICI0OTM0OTE5UkVHIiwKICAib2JqZWN0VHlwZSIgOiAiQUNUSVZJVFkiCn0fdd6b1137c-10",
+        "description": {
+          "en": "A class completion certificate for individuals who have completed the course. This course explains how to use IBM Granite for code generation, code optimization, and troubleshooting. It also explains how to use IBM Watsonx for these purposes.",
+          "id": "Sertifikat penyelesaian kelas bagi individu yang telah menyelesaikan kelas. Kelas ini menjelaskan cara menggunakan IBM Granite untuk keperluan generasi kode, optimasi kode, dan troubleshooting. Kelas ini juga menjelaskan cara menggunakan IBM Watsonx untuk keperluan tersebut."
+        }
       }
     ]
   },
@@ -171,6 +184,19 @@
         "description": {
           "en": "A class completion certificate that teaches simple backend development using Express, Mysql, and Supabase. This class also teaches the use of Postman for API testing and Swagger OpenAPI for API documentation.",
           "id": "Sertifikat penyelesaian kelas yang mengajarkan pembangunan backend sederhana menggunakan Express, Mysql dan Supabase. Kelas ini juga mengajarkan penggunaan Postman untuk melakukan testing API, dan Swagger OpenAPI untuk dokumentasi API."
+        }
+      },
+      {
+        "id": 2,
+        "image": "/certificates/nextskill/74e8679b3c0a3ec3.jpg",
+        "title": {
+          "en": "Learn Vue JS Fundamental",
+          "id": "Belajar Vue JS Fundamental"
+        },
+        "link": "https://nextskill.id/tutor-certificate/?cert_hash=74e8679b3c0a3ec3",
+        "description": {
+          "en": "Certificate of completion of the class that teaches how to create attractive frontend designs using Vue JS with the UI slicing method using Figma. We are also taught how to create Vue components.",
+          "id": "Sertifikat penyelesaian kelas yang mengajarkan cara membuat desain frontend yang menarik menggunakan Vue JS dengan metode slicing UI menggunakan Figma. Kita juga diajarkan bagaimana membuat komponen Vue."
         }
       }
     ]
