@@ -18,7 +18,7 @@ fetch(certificatesUrl)
 </script>
 
 <template>
-  <div class="w-full pb-20 px-3 sm:px-6 md:px-10 lg:px-30 min-h-screen">
+  <div class="w-full px-3 sm:px-6 md:px-10 lg:px-30 min-h-screen">
     <!-- Menampilkan sertifikat -->
     <template v-if="isCertificateLoaded">
       <template v-for="cert in certificates.sort((a, b) => a.id - b.id)" :key="cert.id">

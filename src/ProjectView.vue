@@ -19,7 +19,7 @@ fetch(projectsUrl)
 </script>
 
 <template>
-  <div class="w-full pb-20 px-3 sm:px-6 md:px-10 lg:px-30 min-h-screen">
+  <div class="w-full px-3 sm:px-6 md:px-10 lg:px-30 min-h-screen">
     <template v-if="isProjectsLoaded">
       <template v-for="project in projects.sort((a, b) => a.id - b.id)" :key="project.id">
         <ProjectShowcases :project="project" />
