@@ -11,6 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.7.1",
     "@tailwindcss/vite": "^4.1.8",
     "tailwindcss": "^4.1.8",
     "vanta": "^0.5.24",
