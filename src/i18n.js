@@ -31,6 +31,7 @@ const messages = {
     button: {
       not_found: 'Back to Home',
     },
+    see_detail: 'Click to see details',
   },
   id: {
     nav: {
@@ -62,6 +63,7 @@ const messages = {
     button: {
       not_found: 'Kembali ke Beranda',
     },
+    see_detail: 'Klik untuk melihat detail',
   },
 }
 

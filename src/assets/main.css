@@ -60,3 +60,7 @@
     }
   }
 }
+
+@theme {
+  --breakpoint-glide: 976px;
+}
