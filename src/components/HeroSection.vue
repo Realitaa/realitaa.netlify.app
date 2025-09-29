@@ -12,6 +12,8 @@ const tagline = computed(() => [
   t('hero.tagline.role1'),
   t('hero.tagline.role2'),
   t('hero.tagline.role3'),
+  t('hero.tagline.role4'),
+  t('hero.tagline.role5'),
 ])
 const vantaRef = ref(null)
 let vantaEffect = null
@@ -72,5 +74,3 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
-
-<style scoped></style>

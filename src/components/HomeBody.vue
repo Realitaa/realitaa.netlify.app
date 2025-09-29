@@ -17,25 +17,34 @@ const { t } = useI18n({ useScope: 'global' })
     <h1 class="text-slate-300 text-4xl text-center my-5">{{ t('education') }}</h1>
 
     <ol class="relative border-s border-gray-200 dark:border-gray-700">
-      <TimeLineList time="Now" title="Universitas Negeri Medan" description="Computer Science" />
       <TimeLineList
-        time="April 2025"
-        title="SMK Negeri 9 Medan"
-        description="Software Engineering"
+        :time="t('timeline.education[0].time')"
+        :title="t('timeline.education[0].title')"
+        :description="t('timeline.education[0].description')"
+      />
+      <TimeLineList
+        :time="t('timeline.education[1].time')"
+        :title="t('timeline.education[1].title')"
+        :description="t('timeline.education[1].description')"
       />
     </ol>
 
     <h1 class="text-slate-300 text-4xl text-center my-5">{{ t('experience') }}</h1>
     <ol class="relative border-s border-gray-200 dark:border-gray-700">
       <TimeLineList
-        time="Now"
-        title="Freelancer at projects.co.id"
-        description="Fullstack Web Developer"
+        :time="t('timeline.experience[0].time')"
+        :title="t('timeline.experience[0].title')"
+        :description="t('timeline.experience[0].description')"
       />
       <TimeLineList
-        time="November 2024 - March 2025"
-        title="UDD PMI Kota Medan"
-        description="Programmer and IT Support"
+        :time="t('timeline.experience[1].time')"
+        :title="t('timeline.experience[1].title')"
+        :description="t('timeline.experience[1].description')"
+      />
+      <TimeLineList
+        :time="t('timeline.experience[2].time')"
+        :title="t('timeline.experience[2].title')"
+        :description="t('timeline.experience[2].description')"
       />
     </ol>
 
