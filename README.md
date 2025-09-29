@@ -1,19 +1,18 @@
 # Reza Mulia Putra's Personal Website
 
-This is the source code for [Reza Mulia Putra](https://realitaa.github.io)'s personal website, built with [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Vanta.js](https://www.vantajs.com/). The site showcases projects, achievements, and contact information, and supports both English and Indonesian languages. The branch used by Github Pages is `v1`.
+This is the source code for [Reza Mulia Putra](https://realitaa.vercel.app)'s personal website, built with [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Vanta.js](https://www.vantajs.com/). The site showcases projects, achievements, and contact information, and supports both English and Indonesian languages.
 
 ## Features
 
 - **Responsive Design**: Mobile-first and fully responsive layout.
 - **Internationalization**: Supports English and Indonesian via [vue-i18n](https://vue-i18n.intlify.dev/).
 - **Animated Hero Section**: Interactive globe animation using Vanta.js.
-- **Project & Achievement Gallery**: Dynamic loading of projects and certificates from JSON files.
+- **Project & Achievement Gallery**: Dynamic loading of projects and certificates from JSON files, images embedded from S3, and smooth certificate display via [Glide](https://glidejs.com/).
 - **Contact Section**: Quick links to social media and messaging platforms.
 - **404 Page**: Custom not found page with animated message.
 
 ## Project Structure
 
-- [`.github/workflows/build.yml`](.github/workflows/build.yml) - CI/CD for Github Pages using Github Action Node JS.
 - [`src/`](src/) — Vue components and views
 - [`public/`](public/) — Static assets, certificates, and project data
 - [`src/assets/main.css`](src/assets/main.css) — Tailwind CSS and custom styles entry point
@@ -58,7 +57,7 @@ npm run format
 
 ## Deployment
 
-This project uses GitHub Actions ([.github/workflows/build.yml](.github/workflows/build.yml)) to build and deploy the site automatically on pushes to the dev branch using [peaceiris/actions-gh-pages@v3](https://github.com/peaceiris/actions-gh-pages).
+This project uses Vercel as hosting. Build and deployment are done automatically by Vercel.
 
 ## License
 
