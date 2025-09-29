@@ -23,7 +23,7 @@ const project = computed(() => props.project)
     </div>
     <div class="md:flex md:justify-between gap-5 mx-5 mb-5 -mt-3 text-md md:flex-row-reverse">
       <img
-        :src="project.image"
+        :src="'https://realitaa-bucket.s3.ap-southeast-1.amazonaws.com/projects/' + project.image"
         :alt="project.title"
         class="w-full md:w-130 h-auto rounded-lg shadow-lg"
       />

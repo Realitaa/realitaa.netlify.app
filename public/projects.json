@@ -1,29 +1,16 @@
 [
   {
-    "id": 1,
-    "title": {
-      "en": "Cetak Surat",
-      "id": "Cetak Surat"
-    },
-    "tech": ["html-5", "php", "tailwindcss-icon", "alpinejs-icon", "codeigniter-icon"],
-    "description": {
-      "en": "Application to create and print letters in a structured manner. Helps users to create official letters more easily and quickly. Letter templates are available for printing so that users can print easily.",
-      "id": "Aplikasi untuk membuat dan mencetak surat secara terstruktur. Membantu pengguna membuat surat resmi dengan lebih mudah dan cepat. Template surat tersedia untuk dicetak sehingga pengguna dapat mencetak dengan mudah."
-    },
-    "image": "/projects/cetaksurat.png",
-    "demo": "https://github.com/Realitaa/cetak-surat"
-  },
-  {
     "id": 2,
     "title": {
       "en": "Personal Web",
       "id": "Web Pribadi"
     },
-    "tech": ["html-5", "javascript", "tailwindcss-icon", "vue"],
+    "tech": ["javascript", "tailwindcss-icon", "vue", "aws"],
     "description": {
       "en": "A personal website that showcases my portfolio, skills, and projects. It serves as a digital resume and a platform to share my work with the world.",
       "id": "Sebuah situs web pribadi yang menampilkan portofolio, keterampilan, dan proyek saya. Ini berfungsi sebagai resume digital dan platform untuk berbagi karya saya dengan dunia."
     },
-    "image": "/projects/personal-web.png"
+    "image": "personal-web.png",
+    "demo": "https://realitaa.vercel.app"
   }
 ]
