@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-const certificatesUrl = '/certificates/certificates.json'
+const certificatesUrl = '/certificates.json'
 let certificates = []
 import GlideCertificate from './components/GlideCertificate.vue'
 

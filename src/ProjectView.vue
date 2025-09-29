@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import ProjectShowcases from './components/ProjectShowcases.vue'
 
-const projectsUrl = '/projects/projects.json'
+const projectsUrl = '/projects.json'
 let projects = []
 
 const isProjectsLoaded = ref(false)

@@ -82,7 +82,10 @@ onUnmounted(() => {
               @click="goToSlide(index, certificate.link)"
             >
               <img
-                :src="certificate.image[locale] || certificate.image"
+                :src="
+                  'https://realitaa-bucket.s3.ap-southeast-1.amazonaws.com/certificates/' +
+                  (certificate.image[locale] || certificate.image)
+                "
                 :alt="certificate.title[locale]"
                 class="w-140 h-auto"
               />

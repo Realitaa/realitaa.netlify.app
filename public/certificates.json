@@ -5,21 +5,46 @@
     "certificate_list": [
       {
         "id": 1,
-        "image": "/certificates/dicoding/JMZVE6O33PN09.png",
+        "image": "dicoding/N9ZO27OV6PG5.png",
+        "title": {
+          "en": "Learn Back-End Fundamentals with Javascript",
+          "id": "Belajar Fundamental Back-End dengan Javascript"
+        },
+        "link": "https://www.dicoding.com/certificates/N9ZO27OV6PG5",
+        "description": {
+          "en": "A certificate awarded from a class aimed at Back-End Developers who can secure well on the server, referring to industry standards validated by AWS. Able to create back-end applications in the form of RESTful APIs that implement Database, Authentication and Authorization, Message Broker, Storage, and Caching according to real-world case studies.",
+          "id": "Sertifikat yang diberikan dari kelas yang ditujukan untuk Back-End Developer yang dapat mengamankan dengan baik di server, mengacu pada standar industri yang divalidasi AWS. Mampu membuat aplikasi back-end berupa RESTful API yang menerapkan Database, Authentication dan Authorization, Message Broker, Storage, dan Caching sesuai studi kasus yang ada dalam dunia nyata."
+        }
+      },
+      {
+        "id": 2,
+        "image": "dicoding/4EXG3YG2QZRL.png",
+        "title": {
+          "en": "Architecting on AWS (Building Cloud Architecture on AWS)",
+          "id": "Architecting on AWS (Membangun Arsitektur Cloud di AWS)"
+        },
+        "link": "https://www.dicoding.com/certificates/4EXG3YG2QZRL",
+        "description": {
+          "en": "A certificate awarded from a class aimed at individuals who understand cloud computing further, such as becoming an AWS Solutions Architect by referring to AWS's international competency standards.",
+          "id": "Sertifikat yang diberikan dari kelas yang ditujukan untuk individu yang memahami cloud computing lebih jauh, seperti menjadi seorang AWS Solutions Architect dengan mengacu pada standar kompetensi internasional milik AWS."
+        }
+      },
+      {
+        "id": 3,
+        "image": "dicoding/JMZVE6O33PN9.png",
         "title": {
           "en": "Prompt Engineering for Software Developer",
           "id": "Prompt Engineering untuk Software Developer"
         },
-        "link": "https://www.dicoding.com/certificates/JMZVE6O33PN09",
+        "link": "https://www.dicoding.com/certificates/JMZVE6O33PN9",
         "description": {
           "en": "A class completion certificate for software developers who want to learn how to create good prompts for Generative AI.",
           "id": "Sertifikat penyelesaian kelas bagi para software developer yang ingin belajar cara membuat prompt yang baik untuk Generative AI."
         }
       },
-
       {
         "id": 4,
-        "image": "/certificates/dicoding/53XED8RWKPRN.png",
+        "image": "dicoding/53XED8RWKPRN.png",
         "title": {
           "en": "Learn Node.js Back-end Fundamentals",
           "id": "Belajar Fundamental Back-end dengan Node.js"
@@ -32,8 +57,8 @@
       },
 
       {
-        "id": 2,
-        "image": "/certificates/dicoding/GRX537WLYZ0M.png",
+        "id": 7,
+        "image": "dicoding/GRX537WLYZ0M.png",
         "title": {
           "en": "Practical AI for Productivity",
           "id": "AI Praktis untuk Produktivitas"
@@ -46,8 +71,8 @@
       },
 
       {
-        "id": 3,
-        "image": "/certificates/dicoding/QLZ93LOK7Z5D.png",
+        "id": 5,
+        "image": "dicoding/QLZ93LOK7Z5D.png",
         "title": {
           "en": "Learn Generative AI Usage",
           "id": "Belajar Penggunaan Generative AI"
@@ -60,13 +85,13 @@
       },
 
       {
-        "id": 5,
-        "image": "/certificates/dicoding/JMZVEWG2NPN9.png",
+        "id": 6,
+        "image": "dicoding/EYX4KY6Y5PDL.png",
         "title": {
           "en": "Getting Started with Python Programming",
           "id": "Memulai Pemrograman Dengan Python"
         },
-        "link": "https://www.dicoding.com/certificates/JMZVEWG2NPN9",
+        "link": "https://www.dicoding.com/certificates/EYX4KY6Y5PDL",
         "description": {
           "en": "A class completion certificate for individuals who want to start their career in programming by referring to industry standards.",
           "id": "Sertifikat penyelesaian kelas bagi individu yang ingin memulai karirnya di bidang pemrograman dengan mengacu pada standar industri."
@@ -74,8 +99,8 @@
       },
 
       {
-        "id": 7,
-        "image": "/certificates/dicoding/2VX3KD92JXYQ.png",
+        "id": 8,
+        "image": "dicoding/2VX3KD92JXYQ.png",
         "title": {
           "en": "Learn Cloud and Gen AI Basics on AWS",
           "id": "Belajar Dasar Cloud dan Gen AI di AWS"
@@ -88,8 +113,8 @@
       },
 
       {
-        "id": 6,
-        "image": "/certificates/dicoding/98XWE7R6LXM3.png",
+        "id": 9,
+        "image": "dicoding/98XWE7R6LXM3.png",
         "title": {
           "en": "Learn AI Basics",
           "id": "Belajar Dasar AI"
@@ -109,8 +134,8 @@
       {
         "id": 1,
         "image": {
-          "en": "/certificates/ruangai/en.jpg",
-          "id": "/certificates/ruangai/id.jpg"
+          "en": "ruangai/en.jpg",
+          "id": "ruangai/id.jpg"
         },
         "title": {
           "en": "Basic and Usage of Generative AI",
@@ -130,7 +155,7 @@
     "certificate_list": [
       {
         "id": 3,
-        "image": "/certificates/ibm/MDL-504.png",
+        "image": "ibm/MDL-504.png",
         "title": {
           "en": "Use Generative AI for Software Development",
           "id": "Menggunakan Generative AI untuk Pengembangan Perangkat Lunak"
@@ -143,7 +168,7 @@
       },
       {
         "id": 2,
-        "image": "/certificates/ibm/MDL-567.png",
+        "image": "ibm/MDL-567.png",
         "title": {
           "en": "IBM Granite Models for Software Development",
           "id": "Model IBM Granite untuk Pengembangan Perangkat Lunak"
@@ -156,7 +181,7 @@
       },
       {
         "id": 1,
-        "image": "/certificates/ibm/MDL-566.png",
+        "image": "ibm/MDL-566.png",
         "title": {
           "en": "Code Generation and Optimization Using IBM Granite",
           "id": "Generasi Kode dan Optimasi Menggunakan IBM Granite"
@@ -175,7 +200,7 @@
     "certificate_list": [
       {
         "id": 1,
-        "image": "/certificates/nextskill/292c0af5e3b49e20.png",
+        "image": "nextskill/292c0af5e3b49e20.png",
         "title": {
           "en": "Backend Developer (Express, Mysql, Supabase)",
           "id": "Pengembang Backend (Express, Mysql, Supabase)"
@@ -188,7 +213,7 @@
       },
       {
         "id": 2,
-        "image": "/certificates/nextskill/74e8679b3c0a3ec3.jpg",
+        "image": "nextskill/74e8679b3c0a3ec3.jpg",
         "title": {
           "en": "Learn Vue JS Fundamental",
           "id": "Belajar Vue JS Fundamental"
@@ -207,7 +232,7 @@
     "certificate_list": [
       {
         "id": 1,
-        "image": "/certificates/etc/2S1317LP0002X2024.png",
+        "image": "etc/2S1317LP0002X2024.png",
         "title": {
           "en": "WorldSkills Indonesia - ITSSB",
           "id": "WorldSkills Indonesia - ITSSB"
