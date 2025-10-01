@@ -2,6 +2,19 @@
   {
     "id": 2,
     "title": {
+      "en": "Cetak Surat",
+      "id": "Cetak Surat"
+    },
+    "tech": ["html-5", "php", "tailwindcss-icon", "alpinejs-icon", "codeigniter-icon"],
+    "description": {
+      "en": "Application to create and print letters in a structured manner. Helps users to create official letters more easily and quickly. Letter templates are available for printing so that users can print easily.",
+      "id": "Aplikasi untuk membuat dan mencetak surat secara terstruktur. Membantu pengguna membuat surat resmi dengan lebih mudah dan cepat. Template surat tersedia untuk dicetak sehingga pengguna dapat mencetak dengan mudah."
+    },
+    "image": "cetaksurat.png"
+  },
+  {
+    "id": 3,
+    "title": {
       "en": "Personal Web",
       "id": "Web Pribadi"
     },

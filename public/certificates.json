@@ -1,6 +1,25 @@
 [
   {
     "id": 1,
+    "name": "AWS x Dicoding",
+    "certificate_list": [
+      {
+        "id": 1,
+        "image": "dicoding/AWS2025_L2-BE-108.png",
+        "title": {
+          "en": "Completing the Intermediate Learning Path in the AWS Back-End Academy 2025 Program",
+          "id": "Menyelesaikan Alur Belajar Level Menengah pada Program AWS Back-End Academy 2025"
+        },
+        "link": "https://drive.google.com/file/d/1Jx2o1PQhiHoUAvplHSEviYvOvzsDrwSl/view?usp=drivesdk",
+        "description": {
+          "en": "Successfully completed the coding training in the Back-End Developer Learning Path at the intermediate level (Intermediate) from the AWS Back-End Academy 2025 program. This includes completing the Learn Cloud and Gen AI Basics on AWS class, Learn Back-End Fundamentals with Javascript, Learn Node.js Back-end Fundamentals, and Architecting on AWS (Building Cloud Architecture on AWS).",
+          "id": "Telah berhasil menyelesaikan pelatihan coding pada Alur Belajar Back-End Developer di level menengah (Intermediate) dari program AWS Back-End Academy 2025. Ini meliputi penyelesaian kelas Belajar Dasar Cloud dan Gen AI di AWS, Belajar Dasar Pemrograman Javascript, Belajar Back-End Pemula dengan Javascript dan Architecting on AWS (Membangun Arsitektur Cloud di AWS)."
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Dicoding",
     "certificate_list": [
       {
@@ -128,7 +147,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "RuangAI by Codepolitan",
     "certificate_list": [
       {
@@ -150,7 +169,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "IBM SkillsBuild",
     "certificate_list": [
       {
@@ -195,7 +214,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "NextSkill Indonesia",
     "certificate_list": [
       {
@@ -227,7 +246,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "WorldSkills",
     "certificate_list": [
       {
