@@ -57,7 +57,7 @@ npm run format
 
 ## Deployment
 
-This project uses Vercel as hosting. Build and deployment are done automatically by Vercel.
+This project uses Netlify as hosting. Build and deployment are done automatically by Netlify.
 
 ## License
 

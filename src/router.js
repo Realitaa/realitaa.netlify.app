@@ -5,6 +5,7 @@ import HomeView from './HomeView.vue'
 import AchievementView from './AchievementView.vue'
 import ProjectView from './ProjectView.vue'
 // import HobbyView from './HobbyView.vue'
+import GmbbPage from './GmbbPage.vue'
 import NotFound from './NotFound.vue'
 
 export const isLoading = ref(false)
@@ -15,6 +16,7 @@ const routes = [
   { path: '/achievement', name: 'achievement', component: AchievementView },
   // { path: '/hobby', name: "hobby" component: HobbyView },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+  { path: '/gmbb', name: 'GMBB', component: GmbbPage },
 ]
 
 const router = createRouter({
